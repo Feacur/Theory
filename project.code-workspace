@@ -1,0 +1,19 @@
+// https://code.visualstudio.com/docs/editor/workspaces
+{
+	"folders": [
+		{
+			"path": "analysis",
+		},
+		{
+			"path": ".",
+			"name": "/",
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"analysis": true,
+			"**/.git": true,
+		},
+		"editor.insertSpaces": false,
+	},
+}
